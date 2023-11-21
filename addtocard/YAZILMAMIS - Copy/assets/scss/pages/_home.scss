@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+display: flex;
+flex-direction: column;
+
+   
+    
+  
+
+    label, input {
+       
+        margin-bottom: 5px;
+    }
+    input {
+        width: 100%;
+        padding: 2px;
+      
+    }
+    .btn{
+        background-color: blue;
+        color: white;
+            font-size: 20px;
+            cursor: pointer;
+       
+    }
+}
